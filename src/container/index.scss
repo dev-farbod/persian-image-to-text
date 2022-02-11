@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "BKoodakBold";
+    src: url("../public/font/BKoodakBold.woff") format("woff");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+
+html {
+    direction: rtl;
+    font-size: 16px !important;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: BKoodakBold, "BKoodakBold", tahoma !important;
+    background-color: #22577E;
+}
+
+.container {
+    width: 970px !important;
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: 1200px) {
+        width: 1200px !important;
+    }
+    @media (max-width: 1000px) {
+        width: 98% !important;
+        margin: 0 1vw 0 1vw;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.main{
+    .content{
+        color: #5584AC;
+        background-color: #F6F2D4;
+        overflow: auto;
+        height: 90vh;
+        min-height: 50rem;
+        margin-top: 5vh;
+        border-radius: 0.5rem;
+        margin-bottom: 5vh;
+        .title{
+            text-align: center;
+            font-size: 2rem;
+            padding: 1rem;
+            font-family: Lalezar;
+        }
+        .input{
+            display: grid;
+            place-items: center;
+            margin: 1rem;
+        }
+       
+    }
+}
+
+.file-types{
+    padding: 0.1rem 0 !important;
+}
+
+
+.uploaded-img{
+    width: 60%;
+    margin: auto;
+    min-height: 25rem;
+    text-align: center;
+    img{
+        max-width: 100%;
+    }
+}
+
+.button{
+    text-align: center;
+    margin-top: 3rem;
+    button{
+        background-color: #22577E;
+        color: white;
+        font-family: BKoodakBold, "BKoodakBold", tahoma !important;
+        font-size: 1.2rem;
+        border:none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.2rem;
+    }
+}
+#res{
+    width: 80%;
+    margin: 2rem auto;
+    color: black;
+    white-space: pre-wrap;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.prosses-bar{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 1rem;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    .fill{
+        color: rgb(226, 226, 226);
+        padding-top: 0.2rem;
+        transition: 0.1s;
+        position: absolute;
+        width: 0%;
+        background-color: #22587e;
+        left: 0;
+        z-index: 1;
+
+    }
+}
