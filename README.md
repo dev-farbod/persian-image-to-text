@@ -1,7 +1,7 @@
 # persian-image-to-text
 A tool to convert Persian image text to text.For Persian books,articles,Manuscripts and .etc
 
-ابزاری برای تبدیل عکس متن به متن.برای کتاب ها مجلات و دست نوشته های فارسی
+ابزاری برای تبدیل عکسِ متن به متن.برای کتاب ها مجلات و دست نوشته های فارسی
 
 ## screen shot
 
@@ -24,7 +24,7 @@ cd persian-image-to-text
 npm install
 ```
 
-##run
+## run
 
 ```bash
 
