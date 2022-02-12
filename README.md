@@ -17,7 +17,7 @@ git clone https://github.com/dev-farbod/persian-image-to-text.git
 
 ```
 
-install dependencies
+#### install dependencies
 
 ```bash
 cd persian-image-to-text
